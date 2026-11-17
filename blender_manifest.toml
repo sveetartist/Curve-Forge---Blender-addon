@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "bevel_curve_points"
+version = "1.0.0"
+name = "Curve Forge"
+tagline = "Convert edges, adjust thickness, bevel, merge and slide points"
+maintainer = "vitsv / ArtVit"
+type = "add-on"
+tags = ["Modeling"]
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths = ["__init__.py", "bevel.py", "common.py", "edge_to_curve.py", "geometry.py", "interaction.py", "merge.py", "merge_operators.py", "slide.py", "slide_geometry.py", "ui.py", "README.md", "LICENSE"]
