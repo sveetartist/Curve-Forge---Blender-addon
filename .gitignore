@@ -4,3 +4,5 @@ __pycache__/
 dist/
 *.log
 tests/*.result.json
+promo/
+tests/
